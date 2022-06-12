@@ -184,6 +184,14 @@ under the License.
 					<groupId>log4j</groupId>
 					<artifactId>log4j</artifactId>
 				</exclusion>
+				<exclusion>
+					<groupId>com.tencent.tbds.sdk</groupId>
+					<artifactId>tbds-sdk-plugin</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.tencent.tbds</groupId>
+					<artifactId>tbds-rpc</artifactId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 
@@ -307,6 +315,14 @@ under the License.
 				<exclusion>
 					<groupId>log4j</groupId>
 					<artifactId>log4j</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.tencent.tbds.sdk</groupId>
+					<artifactId>tbds-sdk-plugin</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.tencent.tbds</groupId>
+					<artifactId>tbds-rpc</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>
@@ -977,5 +993,12 @@ under the License.
 
 		</plugins>
 	</build>
+
+	<repositories>
+		<repository>
+			<id>tpublic</id>
+			<url>https://mirrors.tencent.com/repository/maven/tencent_public</url>
+		</repository>
+	</repositories>
 
 </project>
